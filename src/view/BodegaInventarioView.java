@@ -13,25 +13,25 @@ import java.awt.*;
  */
 public class BodegaInventarioView extends JFrame {
 
-    // Componentes del Formulario Superior
-    private JTextField txtId;
-    private JTextField txtNombre;
-    private JTextField txtPrecio;
-    private JTextField txtStock;
-    private JComboBox<String> cmbCategoria;
-    private JTextField txtNuevaCategoria;
-    private JButton btnAgregarCategoria;
+   // Componentes del Formulario Superior
+    public JTextField txtId;
+    public JTextField txtNombre;
+    public JTextField txtPrecio;
+    public JTextField txtStock;
+    public JComboBox<String> cmbCategoria;
+    public JTextField txtNuevaCategoria;
+    public JButton btnAgregarCategoria;
 
     // Componentes de la Tabla Central
-    private JTable tblProductos;
-    private DefaultTableModel tableModel;
+    public JTable tblProductos;
+    public DefaultTableModel tableModel;
 
     // Componentes de la Barra Inferior (Botones de Acción)
-    private JButton btnGuardar;
-    private JButton btnModificar;
-    private JButton btnEliminar;
-    private JButton btnLimpiar;
-
+    public JButton btnGuardar;
+    public JButton btnModificar;
+    public JButton btnEliminar;
+    public JButton btnLimpiar;
+    
     public BodegaInventarioView() {
         super("MiStock - Gestión de Inventario para Bodegas");
         inicializarComponentes();
